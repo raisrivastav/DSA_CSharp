@@ -14,7 +14,7 @@
 
         if(j==-1) return;
 
-        for (int i = j; i < nums.Length; i++)
+        for (int i = j+1; i < nums.Length; i++)
         {
             if (nums[i] != 0)
             {
